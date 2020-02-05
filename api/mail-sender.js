@@ -1,7 +1,9 @@
 module.exports = (req, res) => {
-    res.json({
-      body: req.body,
-      query: req.query,
-      cookies: req.cookies
-    })
+    const response = {
+        body: req.body,
+        query: req.query,
+        cookies: req.cookies
+    };
+    console.log(response);
+    res.json(respinse);
 }
