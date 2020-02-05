@@ -5,5 +5,5 @@ module.exports = (req, res) => {
         cookies: req.cookies
     };
     console.log(response);
-    res.json(respinse);
+    res.json(response);
 }
